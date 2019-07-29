@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import List from "./componenets/List";
+import List from "./componenets/list/List";
 
 const App = ({ store }) => {
   const { lists, allCards } = store;
@@ -15,7 +15,7 @@ const App = ({ store }) => {
   };
 
   return (
-    <div>
+    <div className="App">
       <header className="App-header">
         <h1>Trelloyes!</h1>
       </header>

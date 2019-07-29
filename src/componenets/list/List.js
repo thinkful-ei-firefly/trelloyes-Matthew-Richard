@@ -1,5 +1,6 @@
 import React from "react";
-import Card from "./Card";
+import Card from "../card/Card";
+import "./list.css";
 
 const List = ({ header, cards }) => {
   return (
